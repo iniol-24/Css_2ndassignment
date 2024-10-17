@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(117, 213, 245);
+    color: rgb(123, 229, 229);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:10 ;
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+header nav a {
+    color: rgb(149, 29, 6);
+    padding: 15px;
+    text-decoration: none;
+    transition: color 0.4s ease ;
+}
+header nav a:hover {
+    color: rgb(188, 246, 249);
+}
+section {
+    padding: 80px 30px;
+    z-index: 6;
+}
+.position-relative {
+    position: relative;
+    background-image: url(image3.jpg);
+    height: 700px;
+    background-size: cover;
+border-radius: 50%;
+    margin-bottom: 20px;
+}
+.absolute-positioned {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(121, 182, 246);
+    padding: 10px;
+    margin: 10px;
+}
+.container {
+    display: flex;
+    height: 1200vh;
+}
+.main-content {
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #b5e9f9;
+    margin: 5px;
+}
+.sidebar {
+    width: 200px;
+    position: -webkit-sticky;
+    top: 0px;
+    height: 70vh;
+    background-color: #a9c1c9;
+    padding: 20px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(82, 207, 236);
+    margin: 20px auto;
+    transition: transform 0.4s ease ;
+    
+}
+.box:hover {
+    transform: translateX(-30px);
+}
+
+.animate-btn {
+    display: block;
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: rgb(214, 39, 19);
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease, font size 0.3s ease, border-line 0.3s ease;
+    
+}
+.animate-btn:hover {
+    transform: scale(1.1);
+    background-color: #23e8ba;
+    border-radius:9px ;
+    font-size: 18px;
+    /* border: dashed; */
+}
+footer{
+    background-color: rgb(21, 20, 20);
+    color: rgb(100, 222, 233);
+    padding: 10px 0;
+    position: relative;
+}
+.fixed-footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(230, 221, 210);
+    padding: 10px;
+}
+.writing{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+} 

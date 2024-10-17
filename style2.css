@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(190, 248, 229);
+    font-family: Arial;
+    color: rgb(52, 49, 49);
+    line-height: 1.7;
+    padding: 3px;
+}
